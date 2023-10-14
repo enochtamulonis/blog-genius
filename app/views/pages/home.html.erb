@@ -1,0 +1,14 @@
+<div class="h-screen flex flex-col items-center justify-center bg-gray-100 py-12" data-controller="recording">
+  <div data-recording-target="start" class="flex flex-col items-center">
+    <h1 class="text-3xl font-bold text-gray-800 mb-6">Start Your Blog Today</h1>  
+    <a href="#" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg" data-action="recording#startRecording">
+      Start Blog
+    </a>
+  </div>
+  <div data-recording-target="stop" class="hidden">
+    <a href="#" class="inline-block bg-blue-500 hover:bg-blue-600 animate-pulse text-white font-semibold py-3 px-6 rounded-lg" data-action="recording#stopRecording">
+      Recording... Click to finish blog
+    </a>
+  </div>
+
+</div>
